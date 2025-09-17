@@ -1,9 +1,9 @@
 
 
 
-def hello():
+def upcase_it():
     print("Hello".upper())
 
 
 # Call the function
-hello()
+upcase_it()
