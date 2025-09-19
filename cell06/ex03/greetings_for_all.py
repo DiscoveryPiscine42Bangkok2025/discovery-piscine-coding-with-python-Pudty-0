@@ -6,8 +6,8 @@ def greetings(name="noble stranger"):
     else:
         print("Error! It was not a name.")
 
-
-greetings('Alexandra')
-greetings('Wil')
-greetings()      
-greetings(42)    
+if __name__ == "__main__": 
+ greetings('Alexandra')
+ greetings('Wil')
+ greetings()      
+ greetings(42)    

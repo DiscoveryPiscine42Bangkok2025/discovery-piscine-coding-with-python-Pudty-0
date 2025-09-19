@@ -11,5 +11,6 @@ def downcase_it(params):
 
 all_params = sys.argv[1:]
 
-
-downcase_it(all_params)
+ 
+if __name__ == "__main__":
+ downcase_it(all_params)
