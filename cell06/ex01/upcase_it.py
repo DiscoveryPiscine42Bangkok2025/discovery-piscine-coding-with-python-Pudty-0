@@ -1,10 +1,16 @@
 
 
 
-def upcase_it():
-    print("Hello".upper())
+class UpcaseIt:
+    def process():
+        text = "Hello World!"
+        print(text.upper())
 
+
+def main():
+    UpcaseIt.process()
 
 
 if __name__ == "__main__":
- upcase_it()
+    main()
+

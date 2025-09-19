@@ -1,9 +1,12 @@
 
+class HelloAll:
+    def say_hello():
+        print("Hello World!")
 
 
-def hello():
-    print("Hello, everyone!")
+def main():
+    HelloAll.say_hello()
 
 
 if __name__ == "__main__":
-    hello()
+    main()

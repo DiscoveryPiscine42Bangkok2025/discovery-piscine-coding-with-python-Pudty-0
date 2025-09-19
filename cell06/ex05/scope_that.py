@@ -1,21 +1,27 @@
 
 
 
-def add_one(x):
-   
-    x = x + 1
-    print("Inside function:", x)
+class NumberProcessor:
+    def __init__(self, num):
+        self.num = num
+
+    def add_one(self):
+        result = self.num + 1
+        print("Inside method:", result)
+        return result
 
 
 def main():
     num = 5
-    print("Before function call:", num)
+    print("Before method call:", num)
 
-    add_one(num)
+    processor = NumberProcessor(num)
+    processor.add_one()
 
-    print("After function call:", num)
+    print("After method call:", num)
 
 
 if __name__ == "__main__":
     main()
+
 
