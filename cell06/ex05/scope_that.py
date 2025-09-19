@@ -2,15 +2,20 @@
 
 
 def add_one(x):
+   
     x = x + 1
     print("Inside function:", x)
 
 
-num = 5
-print("Before function call:", num)
+def main():
+    num = 5
+    print("Before function call:", num)
+
+    add_one(num)
+
+    print("After function call:", num)
 
 
-add_one(num)
+if __name__ == "__main__":
+    main()
 
-
-print("After function call:", num)

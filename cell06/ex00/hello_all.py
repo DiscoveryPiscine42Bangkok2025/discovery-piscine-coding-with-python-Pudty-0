@@ -5,5 +5,5 @@ def hello():
     print("Hello, everyone!")
 
 
-# Call the function
-hello()
+if __name__ == "__main__":
+    hello()
